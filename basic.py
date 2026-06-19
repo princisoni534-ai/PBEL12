@@ -1,44 +1,46 @@
- #integer 
-a=10
-print("integer:",a)
+# Variable
 
-#float
-b=10.5
-print("float:",b)
+a = 10
+print(a)
+print(type(a))
 
-#String
-c="Princi"
-print("String:",c)
+a = 10.5
+print(a)
+print(type(a))
 
-#Boolean
-d=True
-print("Boolean:",d)
+a = "Hello"
+print(a)
+print(type(a))
 
-#Complex
-e = 2 + 3j
-print("Complex:",e)
+a = True
+print(a)
+print(type(a))
 
-#list
-f = [10,20,30]
-print("List:",f)
+a = 1 + 1j
+print(a)
+print(type(a))
 
-#tuple
-g = (1,2,3)
-print("Tupple:",g)
+a = (1, 2, 3, 4)
+print(a)
+print(type(a))
 
-#Set
-h = {5,6,7}
-print("Set",h)
+a = [1, 2, 3, 4]
+print(a)
+print(type(a))
 
-#Dictionary
-i = {
-    "name":"Princi",
-    "age":19
-}
-print("Dictionary:",i)
+a = {1, 2, 3, 4}
+print(a)
+print(type(a))
 
-#class
+a = {1: "one", 2: "two", 3: "three"}
+print(a)
+print(type(a))
+
 class MyClass:
-    x=5
-obj=MyClass
-print("Classvalue:",obj.x)
+    pass
+
+# Variable Naming Rules
+
+# 1_data = 100   # Not Allowed
+# _data = 100    # Allowed
+# @data = 100    # Not Allowed
